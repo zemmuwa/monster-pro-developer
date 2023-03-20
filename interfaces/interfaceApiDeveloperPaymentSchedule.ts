@@ -1,0 +1,32 @@
+export interface IDeveloperPaymentSchedule {
+	id: string
+	sort: number
+	created_at: string
+	updated_at: string
+	creator_id: string
+	modifier_id: string
+	developer_detail_transaction_id: string
+	unit_block_price_id: string
+	payment_type: string
+	termin: any
+	installment_amount: number
+	due_date: string
+	deadline_payment: string
+	service_charge: any
+	grand_total: any
+	payment_gateway_code: any
+	payment_gateway_trx: any
+	payment_gateway_status: any
+	attribute1: null
+	attribute2: null
+	attribute3: null
+	attribute4: null
+	attribute5: null
+	developer_detail_transaction: any
+	transaction_payment: any
+	transaction_redeem: any
+	unit_block_price: any
+	buyer_status: number
+	is_upload_receipt: number
+	redeem_status: number
+}

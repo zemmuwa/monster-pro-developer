@@ -1,0 +1,30 @@
+export interface IAgentGet {
+	id: string
+	sort: number
+	created_at: string
+	updated_at: string
+	creator_id?: any
+	modifier_id?: any
+	ktp_number: number
+	id_card_number: number
+	npwp_number: number
+	bpjs_number: number
+	agency_id: string
+	refferal: string
+	email: string
+	first_name: string
+	last_name: string
+	phone_number: string
+	marriage_status: string
+	place_of_birth: string
+	date_of_birth: string
+	address: string
+	agent_photo_id: string
+	agent_photo_url: string
+	active: boolean
+	attribute1?: any
+	attribute2?: any
+	attribute3?: any
+	attribute4?: any
+	attribute5?: any
+}
